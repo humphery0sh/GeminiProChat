@@ -1,6 +1,4 @@
 {
-  "buildCommand": "OUTPUT=vercel astro build",
-  "regions": ["cle1"],
-  "functionFailoverRegions": ["iad1","pdx1","sfo1","hnd1"]
+  "buildCommand": "OUTPUT=vercel astro build"
 }
 
