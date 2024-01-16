@@ -66,4 +66,11 @@ export default defineConfig({
       process.env.OUTPUT === 'netlify' && disableBlocks(),
     ],
   },
+  server: {
+    headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Credentials": "true",
+        "X-Frame-Options": "ALLOW-FROM  http://gptstore.buzz"
+    }
+  },
 })
