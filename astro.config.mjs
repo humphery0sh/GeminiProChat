@@ -70,7 +70,7 @@ export default defineConfig({
     headers: {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Credentials": "true",
-        "X-Frame-Options": "ALLOW-FROM  http://gptstore.buzz"
+        "X-Frame-Options": "ALLOW-FROM  https://gptstore.buzz"
     }
   },
 })
